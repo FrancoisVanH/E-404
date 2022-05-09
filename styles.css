@@ -11,13 +11,16 @@ font-family:'Lato', sans-serif;
 color: #888;
 margin: 0;
 }
+
 a {
     color: #888;
     text-decoration: none;
 }
+
 a:hover {
-    font-size: 50%;
+    font-size: 5%;
 }
+
 /* faire les classes  */
 #main{
     display: table;
@@ -25,16 +28,19 @@ a:hover {
     height: 100vh;
     text-align: center;
 }
+
 .c1{
     display: table-cell;
     vertical-align: middle;
 }
+
 .c1 h1{
     font-size: 50px;
     display: inline-block;
     padding-right: 12px;
     animation: type .5s alternate infinite;
 }
+
 @keyframes type{
     from{box-shadow: inset -3px 0px 0px #888;}
     to{box-shadow: inset -3px 0px 0px transparent;}
